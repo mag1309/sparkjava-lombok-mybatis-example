@@ -10,11 +10,11 @@ Code based on https://github.com/mag1309/sparkjava-lombok-mybatis-example
 
 - MyBatis is a persistence framework which eliminates almost all of the JDBC code and manual setting of parameters and retrieval of results.
 
-*Test of the API can be done via Postmap, Curl, SOAPUI.
+*Test of the API can be done via Postmap, Curl, SOAPUI.*
 
 - All persons (GET Request)
-  http://localhost:8080/api/person
-  {
+  - http://localhost:8080/api/person
+  ```{
     "status": "SUCCESS",
     "data": [
       {
@@ -32,11 +32,11 @@ Code based on https://github.com/mag1309/sparkjava-lombok-mybatis-example
         "phone": "9999999999"
       },
     ]
-  }
+  }```
 
 - Retrive a single records (GET Request)
-  http://localhost:8080/api/person/2
-  {
+  - http://localhost:8080/api/person/2
+  ```{
     "status": "SUCCESS",
     "data": {
       "id": "2",
@@ -45,7 +45,7 @@ Code based on https://github.com/mag1309/sparkjava-lombok-mybatis-example
       "email": "test2@test.com",
       "phone": "2234567890"
     }
-  }
+  }```
 
 - Create a records (POST Request)
   http://localhost:8080/api/person
