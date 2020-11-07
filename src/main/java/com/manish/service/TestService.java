@@ -125,36 +125,4 @@ public class TestService {
           }
 	   }
 	}
-
-
-   
-   public static void main(String[] args)
-   {
-	   TestService service = new TestService();
-	   try {
-		   
-		service.retrieve("1");
-		PersonModel model = new PersonModel();
-		model.setFirstName("Test");
-		model.setLastName("Test");
-		model.setEmail("test@test.com");
-		model.setPhone("1234567890");
-		service.create(model);
-		
-		model = new PersonModel();
-		model.setId("2");
-		model.setFirstName("Test2");
-		model.setLastName("Test2");
-		model.setEmail("test2@test.com");
-		model.setPhone("2234567890");
-		service.update(model);
-		
-		service.delete("1");
-		
-		service.retrieveAll();
-	} catch (IOException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-	}
-   }
 }
