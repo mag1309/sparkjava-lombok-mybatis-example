@@ -48,13 +48,13 @@ Code based on https://github.com/mag1309/sparkjava-lombok-mybatis-example
   }```
 
 - Create a records (POST Request)
-  http://localhost:8080/api/person
+  - http://localhost:8080/api/person
 
 - Update a records (PUT Request)
-  http://localhost:8080/api/person/1
+  - http://localhost:8080/api/person/1
 
 - Delete a records (DELETE Request)
-  http://localhost:8080/api/person/2
+  - http://localhost:8080/api/person/2
 
 *Compile and run*
 - Clone the repository
